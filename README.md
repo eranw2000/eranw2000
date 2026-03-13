@@ -13,7 +13,9 @@ Over the past several years I have been designing and building **production‑gr
 - Frameworks for **LLM fine-tuning** and building **domain-specific LLMs**
 
 My work focuses on building **AI decision systems that are scalable, explainable, and production‑ready**, combining data engineering, automation, and intelligent orchestration.
+
 I am also developing a framework for **LLM fine-tuning** to support the creation of **domain-specific language models**, enabling structured training-data generation, knowledge-grounded adaptation, and reusable workflows for specialized domains.
+
 Previously founder and CEO of InfoGin (acquired by Wix), where our platform reached **100M+ users globally**. I hold **six US patents** in contextual data analysis and adaptive systems.
 
 ### Core Technologies
