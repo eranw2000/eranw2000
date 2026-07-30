@@ -1,28 +1,23 @@
-## Hi, I’m Eran 👋
+## Hi, I'm Eran 👋
 
-AI Systems Architect specializing in **multi‑agent AI systems, LLM architectures, and data‑driven decision platforms**.
+**AI & Data Solutions Architect.** I turn business problems into AI and data systems that run in production, handling the whole path myself: domain research, architecture, development, and live operation.
 
-Over the past several years I have been designing and building **production‑grade AI systems** at the intersection of:
+Since 2024 I have designed, built, and now operate production systems for clients in finance, legal, education, insurance, and consumer health, including:
 
-- Multi‑Agent Orchestration
-- LLM & RAG Architectures
-- Predictive Analytics & Risk Modeling
-- Graph‑based Knowledge Systems (Neo4j, Cypher)
-- Enterprise Data Platforms (Warehouse / Lakehouse)
-- Governance‑aware AI deployments
-- Frameworks for **LLM fine-tuning** and building **domain-specific LLMs**
+- A multi-agent financial advisory platform (live public web product)
+- A predictive learning-analytics platform, with risk scoring statistically validated against real outcomes
+- A B2B account-intelligence pipeline: scraping, enrichment, deduplication, LLM-adjudicated scoring
+- A voice + text knowledge-agent framework, deployed as four branded customer instances
+- RAG-based legal risk assessment with a secured in-tenant architecture, where no document leaves the client's cloud
 
-My work focuses on building **AI decision systems that are scalable, explainable, and production‑ready**, combining data engineering, automation, and intelligent orchestration.
+Most of that work lives in private repos. What you see here is the **AI-native development infrastructure I build and use daily**: Claude Code workflows for shipping to production, review agents, security and privacy guardrails, and multi-phase skill frameworks. If you want to know how I work, these repos are the honest sample.
 
-I am also developing a framework for **LLM fine-tuning** to support the creation of **domain-specific language models**, enabling structured training-data generation, knowledge-grounded adaptation, and reusable workflows for specialized domains.
+Before consulting: founder and CEO of InfoGin (acquired by Wix), with products used by more than 100M people; head of product groups at Wix; wrote 15 patents, six granted by the USPTO, in contextual data analysis and adaptive systems (2006-2014), the same class of problems I now solve with modern AI.
 
-Previously founder and CEO of InfoGin (acquired by Wix), where our platform reached **100M+ users globally**. I hold **six US patents** in contextual data analysis and adaptive systems.
+### Core technologies
 
-### Core Technologies
+Python · Anthropic Claude · OpenAI GPT · Google Gemini (incl. real-time voice) · LangChain / LangGraph · RAG · Neo4j · Django · FastAPI · Docker · Playwright · Render / AWS / Azure
 
-Python • LangChain • LangGraph • Neo4j • RAG • Multi‑Agent AI  
-Django • Data Pipelines • Predictive Analytics • Graph Intelligence
+### Contact
 
-### Current Focus
-
-Building AI systems that combine **LLMs, data platforms, graph knowledge, and automated decision workflows**.
+[eranwyler.com](https://www.eranwyler.com) · [LinkedIn](https://www.linkedin.com/in/eranwyler/) · eran@wyler.ai
