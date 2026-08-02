@@ -10,7 +10,17 @@ Since 2024 I have designed, built, and now operate production systems for client
 - A voice + text knowledge-agent framework, deployed as four branded customer instances
 - RAG-based legal risk assessment with a secured in-tenant architecture, where no document leaves the client's cloud
 
-Most of that work lives in private repos. What you see here is the **AI-native development infrastructure I build and use daily**: Claude Code workflows for shipping to production, review agents, security and privacy guardrails, and multi-phase skill frameworks. If you want to know how I work, these repos are the honest sample.
+Most of that work lives in private repos. What you see here is the **AI-native development infrastructure I build and use daily**: Claude Code workflows for shipping to production, review agents, security and privacy guardrails, multi-phase skill frameworks, and the tooling around them. If you want to know how I work, these repos are the honest sample.
+
+### The public repos
+
+- **[multi-phase-skills-framework](https://github.com/eranw2000/multi-phase-skills-framework)** takes work from a rough idea to tested code through named phases, each leaving a handoff artifact for the next. Includes the plan gate that drives every weak spot in an approved plan to fixed or explicitly accepted before any code is written.
+- **[claude-release-workflow](https://github.com/eranw2000/claude-release-workflow)** is the path to production: checkpoint a branch as a PR, run the three-reviewer round, release, then smoke test the live service. Ships a hook that blocks a direct push to main.
+- **[claude-review-agents](https://github.com/eranw2000/claude-review-agents)** reviews a diff before it ships. Four agents covering code quality, deploy safety, whether the PR's tests actually pass, and prose that reads as machine-written.
+- **[secure-dev-guardrails](https://github.com/eranw2000/secure-dev-guardrails)** handles security and privacy for AI-assisted development: threat modeling, dependency and secret review, plus hooks that block a commit carrying credentials or personal data.
+- **[claude-maintenance-skills](https://github.com/eranw2000/claude-maintenance-skills)** keeps project knowledge healthy over time. What state a project is in when you return to it, and how to stop its context file from bloating.
+- **[claude-commands](https://github.com/eranw2000/claude-commands)** holds the session commands and a status line that shows context use while you work.
+- **[drawio-diagram-skill](https://github.com/eranw2000/drawio-diagram-skill)** produces diagrams as draw.io files, then validates and renders them, so the image is looked at before the diagram is called done.
 
 Before consulting: founder and CEO of InfoGin (acquired by Wix), with products used by more than 100M people; head of product groups at Wix; wrote 15 patents, six granted by the USPTO, in contextual data analysis and adaptive systems (2006-2014), the same class of problems I now solve with modern AI.
 
