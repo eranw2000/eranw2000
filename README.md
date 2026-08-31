@@ -23,6 +23,8 @@ Most of that work lives in private repos. What you see here is the **AI-native d
 - **[drawio-diagram-skill](https://github.com/eranw2000/drawio-diagram-skill)** produces diagrams as draw.io files, then validates and renders them, so the image is looked at before the diagram is called done.
 - **[google-slides-skill](https://github.com/eranw2000/google-slides-skill)** rebuilds a Google Slides deck against branding you point it at: one design system, card layouts instead of paragraph dumps, real tables, and a render of every slide it touches before it says the deck is ready.
 
+- **[plain-english-skills](https://github.com/eranw2000/plain-english-skills)** makes Claude write for a reader instead of for the session it has been sitting in: restate the last report in plain English, name the next step with the command to start it, or rewrite a document into Simplified Technical English with a checker that exits non-zero on violations.
+
 Before consulting: founder and CEO of InfoGin (acquired by Wix), with products used by more than 100M people; head of product groups at Wix; wrote 15 patents, six granted by the USPTO, in contextual data analysis and adaptive systems (2006-2014), the same class of problems I now solve with modern AI.
 
 ### Core technologies
