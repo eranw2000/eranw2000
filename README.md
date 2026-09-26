@@ -25,6 +25,14 @@ Most of that work lives in private repos. What you see here is the **AI-native d
 
 - **[plain-english-skills](https://github.com/eranw2000/plain-english-skills)** makes Claude write for a reader instead of for the session it has been sitting in: restate the last report in plain English, name the next step with the command to start it, or rewrite a document into Simplified Technical English with a checker that exits non-zero on violations.
 
+### How the repos fit together
+
+Installed together, the repos give one development flow, from a rough idea to a checked release. Each box names the repo that ships it.
+
+[![The development flow across the public repos: plan, build, checkpoint, review and release, with the guardrail hooks and the session commands around them](docs/development-flow.png)](docs/development-flow.png)
+
+The diagram is a draw.io file, [docs/development-flow.drawio](docs/development-flow.drawio), drawn and rendered with drawio-diagram-skill.
+
 Before consulting: founder and CEO of InfoGin (acquired by Wix), with products used by more than 100M people; head of product groups at Wix; wrote 15 patents, six granted by the USPTO, in contextual data analysis and adaptive systems (2006-2014), the same class of problems I now solve with modern AI.
 
 ### Core technologies
