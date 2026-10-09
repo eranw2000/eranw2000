@@ -33,6 +33,14 @@ Installed together, the repos give one development flow, from a rough idea to a 
 
 The diagram is a draw.io file, [docs/development-flow.drawio](docs/development-flow.drawio), drawn and rendered with drawio-diagram-skill.
 
+### Where a change gets checked
+
+Every change I ship passes five review checkpoints, from the plan to the live deploy: plan review before any code, hooks at every write and commit, a review round on the PR, a verdict gate at merge, and a check that production runs the exact commit I pushed. Each box names the repo that ships it.
+
+[![Five review checkpoints across the public repos: plan review, commit hooks, the PR review round, the merge gate and the live deploy check](docs/review-checkpoints.png)](docs/review-checkpoints.png)
+
+The diagram is a draw.io file, [docs/review-checkpoints.drawio](docs/review-checkpoints.drawio), drawn and rendered with drawio-diagram-skill.
+
 Before consulting: founder and CEO of InfoGin (acquired by Wix), with products used by more than 100M people; head of product groups at Wix; wrote 15 patents, six granted by the USPTO, in contextual data analysis and adaptive systems (2006-2014), the same class of problems I now solve with modern AI.
 
 ### Core technologies
