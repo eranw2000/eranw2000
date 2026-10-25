@@ -24,7 +24,7 @@ Most of that work lives in private repos. What you see here is the **AI-native d
 - **[google-slides-skill](https://github.com/eranw2000/google-slides-skill)** rebuilds a Google Slides deck against branding you point it at: one design system, card layouts instead of paragraph dumps, real tables, and a render of every slide it touches before it says the deck is ready.
 
 - **[plain-english-skills](https://github.com/eranw2000/plain-english-skills)** makes Claude write for a reader instead of for the session it has been sitting in: restate the last report in plain English, name the next step with the command to start it, or rewrite a document into Simplified Technical English with a checker that exits non-zero on violations.
-- **[claude-code-mods](https://github.com/eranw2000/claude-code-mods)** adds live side panes to Claude Code: one shows every helper agent, shell command and Codex run while it works, the other the files a session reads and edits.
+- **[claude-code-mods](https://github.com/eranw2000/claude-code-mods)** adds live side panes to Claude Code: one shows every helper agent, shell command and Codex run while it works, one lists each prompt you typed and jumps to it on a click, and one shows the files a session reads and edits.
 
 ### How the repos fit together
 
