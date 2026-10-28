@@ -23,7 +23,7 @@ Most of that work lives in private repos. What you see here is the **AI-native d
 - **[drawio-diagram-skill](https://github.com/eranw2000/drawio-diagram-skill)** produces diagrams as draw.io files, then validates and renders them, so the image is looked at before the diagram is called done.
 - **[google-slides-skill](https://github.com/eranw2000/google-slides-skill)** rebuilds a Google Slides deck against branding you point it at: one design system, card layouts instead of paragraph dumps, real tables, and a render of every slide it touches before it says the deck is ready.
 
-- **[plain-english-skills](https://github.com/eranw2000/plain-english-skills)** makes Claude write for a reader instead of for the session it has been sitting in: restate the last report in plain English, name the next step with the command to start it, or rewrite a document into Simplified Technical English with a checker that exits non-zero on violations.
+- **[plain-english-skills](https://github.com/eranw2000/plain-english-skills)** makes Claude write for a reader instead of for the session it has been sitting in: restate the last report in plain English, name the next step with the command to start it, rewrite a document into Simplified Technical English with a checker that exits non-zero on violations, or make a Word or PowerPoint file usable with a screen reader, aligned with SI 5568 and WCAG AA.
 - **[claude-code-mods](https://github.com/eranw2000/claude-code-mods)** adds live side panes to Claude Code: one shows every helper agent, shell command and Codex run while it works, one lists each prompt you typed and jumps to it on a click, and one shows the files a session reads and edits.
 
 ### How the repos fit together
@@ -41,6 +41,14 @@ Every change I ship passes five review checkpoints, from the plan to the live de
 [![Five review checkpoints across the public repos: plan review, commit hooks, the PR review round, the merge gate and the live deploy check](docs/review-checkpoints.png)](docs/review-checkpoints.png)
 
 The diagram is a draw.io file, [docs/review-checkpoints.drawio](docs/review-checkpoints.drawio), drawn and rendered with drawio-diagram-skill.
+
+### Security, privacy and quality at every stage
+
+Where security, privacy, quality, clean code and accessibility are handled as a change moves from requirements to release. Read a row for one topic, or a column for one stage. Each box names the repo that ships it.
+
+[![Security, privacy, quality, clean code and accessibility across the stages requirements, design, build, test, review and release, with the public skill, agent or hook that handles each](docs/sdlc-topics.png)](docs/sdlc-topics.png)
+
+The diagram is a draw.io file, [docs/sdlc-topics.drawio](docs/sdlc-topics.drawio), drawn and rendered with drawio-diagram-skill.
 
 Before consulting: founder and CEO of InfoGin (acquired by Wix), with products used by more than 100M people; head of product groups at Wix; wrote 15 patents, six granted by the USPTO, in contextual data analysis and adaptive systems (2006-2014), the same class of problems I now solve with modern AI.
 
