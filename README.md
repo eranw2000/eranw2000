@@ -52,7 +52,7 @@ The diagram is a draw.io file, [docs/sdlc-topics.drawio](docs/sdlc-topics.drawio
 
 ### From plan to small, tested slices
 
-Before I write code, I turn the plan into a spec, then cut the spec into small vertical slices: each slice is a thin path through every layer, from data to UI to tests, and the first one is the smallest end-to-end version that proves the design. Each slice is then built test first, checked on a draft PR, reviewed and released on its own, so every step stays small enough to check. The diagram shows the order of the steps and, at each one, the skill I run and the agents it starts. Each box names the repo that ships it.
+Before I write code, I turn the plan into a spec, then cut the spec into small vertical slices: each slice is a thin path through every layer, from data to UI, with tests, and the first one is the smallest end-to-end version that proves the design. Each slice is then built test first, checked on a draft PR, reviewed and released on its own, so every step stays small enough to check. The diagram shows the order of the steps and, at each one, the skill I run and the agents it starts. Each box names the repo that ships it.
 
 [![From plan to shipped slices: plan, spec, cut into slices, build each slice test first, then review and release, with the skill and the agents at each step](docs/plan-to-slices.png)](docs/plan-to-slices.png)
 
