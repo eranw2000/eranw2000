@@ -50,6 +50,14 @@ Where security, privacy, quality, clean code and accessibility are handled as a 
 
 The diagram is a draw.io file, [docs/sdlc-topics.drawio](docs/sdlc-topics.drawio), drawn and rendered with drawio-diagram-skill.
 
+### From plan to small, tested slices
+
+Before I write code, I turn the plan into a spec, then cut the spec into small vertical slices: each slice is a thin path through every layer, from data to UI to tests, and the first one is the smallest end-to-end version that proves the design. Each slice is then built test first, checked on a draft PR, reviewed and released on its own, so every step stays small enough to check. The diagram shows the order of the steps and, at each one, the skill I run and the agents it starts. Each box names the repo that ships it.
+
+[![From plan to shipped slices: plan, spec, cut into slices, build each slice test first, then review and release, with the skill and the agents at each step](docs/plan-to-slices.png)](docs/plan-to-slices.png)
+
+The diagram is a draw.io file, [docs/plan-to-slices.drawio](docs/plan-to-slices.drawio), drawn and rendered with drawio-diagram-skill.
+
 Before consulting: founder and CEO of InfoGin (acquired by Wix), with products used by more than 100M people; head of product groups at Wix; wrote 15 patents, six granted by the USPTO, in contextual data analysis and adaptive systems (2006-2014), the same class of problems I now solve with modern AI.
 
 ### Core technologies
